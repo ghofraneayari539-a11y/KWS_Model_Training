@@ -21,6 +21,7 @@ Open your terminal or command prompt and run:
 ```bash
 git clone https://github.com/RanimKhalfallah/KWS_Model_Training.git
 cd KWS_Model_Training
+```bash
 
  Create a virtual environment
 python -m venv kws_env
