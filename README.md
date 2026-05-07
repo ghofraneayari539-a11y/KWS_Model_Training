@@ -33,12 +33,14 @@ source kws_env/bin/activate
 pip install tensorflow tensorflow-datasets numpy scikit-learn librosa matplotlib jupyterlab
 ```
 
-Data loading
+### 4. Load your data
 You can use the code injected in the second cell to load the "Google Speech Commands" dataset
 Note :  it will download the ~2GB dataset.
-Final Deliverable
+
+### 5. Final Deliverable
+
 At the end of the session, you must present a benchmark table comparing your 4 models:
-Architecture	Total Parameters	Training Time (per epoch)	Validation Accuracy
+Architecture,	Total Parameters,	Training Time (per epoch),	Validation Accuracy
 Baseline MLP			
 2D CNN			
 LSTM			
