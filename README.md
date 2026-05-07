@@ -21,15 +21,17 @@ Open your terminal or command prompt and run:
 ```bash
 git clone https://github.com/RanimKhalfallah/KWS_Model_Training.git
 cd KWS_Model_Training
+```
+### 1. Create a virtual environment
 ```bash
-
- Create a virtual environment
 python -m venv kws_env
 # On /Linux:
 source kws_env/bin/activate
-
-Install dependecies
+```
+### 3. Install Dependencies
+```bash
 pip install tensorflow tensorflow-datasets numpy scikit-learn librosa matplotlib jupyterlab
+```
 
 Data loading
 You can use the code injected in the second cell to load the "Google Speech Commands" dataset
