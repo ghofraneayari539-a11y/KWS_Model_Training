@@ -1,0 +1,5 @@
+kws_env/
+__pycache__/
+*.keras
+*.tflite
+tensorflow_datasets/
